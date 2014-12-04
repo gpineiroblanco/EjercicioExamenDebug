@@ -15,8 +15,10 @@ else
           	 
 for (int x=2;x<1000;x++) {
 if (metodoMio(x))
-System.out.print(x + " ");                         	 
-}         	 
+ System.out.print(x + " ");                         	 
+}         
+//Para variable=16,j=2  aux=true
+//Para variable=22, j=21  expresion=false
 	}
 public static boolean metodoMio(int variable){
 int j = 2;
